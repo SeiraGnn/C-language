@@ -10,5 +10,4 @@ Most cards use an algorithm invented by Hans Peter Luhn of IBM thatyou can check
 
 Companies also follow certain patterns to make recognizing the issuer easy. All American Express numbers start with 34 or 37, for example.
 
-# CREDIT is a program that prompts the user for a credit card number and then uses Luhn's algorithm to identify which company it belongs to (AMEX, VISA, etc.) 
-# or if it's an INVALID credit card number.
+# CREDIT is a program that prompts the user for a credit card number and then uses Luhn's algorithm to identify which company it belongs to (AMEX, VISA, etc.) or if it's an INVALID credit card number.
