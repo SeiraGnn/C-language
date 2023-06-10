@@ -1,7 +1,7 @@
 If you received a credit card number for a purchase, how would you quickly determine if it's a valid number or if it has a typo -- perhaps even an attempt at fraud?
 
 Querying a large database could prove too slow. Instead, you can encode information in the credit-card numbers themselves when they're issued.
-A 'checksum' encodes a mathematical relationship between the numbers that enables computers &#40or humans who like math&#41 
+A 'checksum' encodes a mathematical relationship between the numbers that enables computers (or humans who like math)
 to determine if a credit card number is (syntactically) valid, much quicker. 
 Most cards use an algorithm invented by Hans Peter Luhn of IBM thatyou can check as follows:
 
