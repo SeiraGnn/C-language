@@ -37,7 +37,7 @@ Lock: Starting with the strongest pair, go through the pairs of candidates in or
 
 Once the graph is complete, the source of the graph (the one with no edges pointing towards it) is the winner!
 
-USAGE:
+# USAGE:
 
 ./tideman Alice Bob Charlie
 
