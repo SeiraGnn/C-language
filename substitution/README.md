@@ -1,4 +1,5 @@
 TITLE: Substitution
+
 USAGE: $ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
 
   plaintext:  hello, world
