@@ -144,7 +144,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             // In cases of edge or corner:
             // The altered "i." and "j." variables avoid touching unwanted memory, but
             // by including some pixels twice in the sum.
-            // The z(ero)'s variables avoid adding those pixels twice
+            // The z(ero)'s variables avoid adding those pixels twice  
             avgB = (swap[iminus][jminus].rgbtBlue * (z1) * (z3) + (z1) * swap[iminus][j].rgbtBlue + (z1) * (z4) * swap[iminus][jplus].rgbtBlue
                             + (z3) * swap[i][jminus].rgbtBlue + swap[i][j].rgbtBlue + (z4) * swap[i][jplus].rgbtBlue
                             + (z2) * (z3) * swap[iplus][jminus].rgbtBlue + (z2) * swap[iplus][j].rgbtBlue + (z2) * (z4) * swap[iplus][jplus].rgbtBlue)
@@ -178,9 +178,6 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             divider = 9.0;
         }
     }
-
-    //printf("pixel x is %i, %i, %i\n", image[0][599].rgbtBlue,image[0][599].rgbtGreen, image[0][599].rgbtRed);
-
     return;
 }
 
@@ -387,14 +384,6 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
                        + swap[i + 1][j - 1].rgbtRed + (2) * swap[i + 1][j].rgbtRed + swap[i + 1][j + 1].rgbtRed;
             }
 
-            /*printf("Gx_B is %f\n", Gx_B);
-            printf("Gx_g is %f\n", Gx_G);
-            printf("Gx_r is %f\n\n", Gx_R);
-
-            printf("Gy_B is %f\n", Gy_B);
-            printf("Gy_g is %f\n", Gy_G);
-            printf("Gy_r is %f\n\n", Gy_R);*/
-
             // Combine Gy and Gy
             b = round(sqrt(pow(Gx_B, 2) + pow(Gy_B, 2)));
 
@@ -422,16 +411,7 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
             image[i][j].rgbtBlue = b;
             image[i][j].rgbtGreen = g;
             image[i][j].rgbtRed = r;
-
-
-            /*
-            if (i < 4 && j < 4)
-            {
-                printf("test[%i][%i] is %i, %i, %i\n", i, j, test[i][j].rgbtBlue, test[i][j].rgbtGreen, test[i][j].rgbtRed);
-            }*/
         }
     }
-
-
     return;
 }
