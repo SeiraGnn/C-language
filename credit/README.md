@@ -3,10 +3,8 @@ TITLE: Credit
 USAGE: 
 
 $ ./credit
-
 Number: 4003600000000014
 
-VISA
 
 If you received a credit card number for a purchase, how would you quickly determine if it's a valid number or if it has a typo -- perhaps even an attempt at fraud?
 
