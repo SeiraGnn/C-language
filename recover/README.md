@@ -1,4 +1,4 @@
-TITLE: recover
+TITLE: Recover
 
 USAGE: ./recover card.raw
 
