@@ -40,10 +40,15 @@ Once the graph is complete, the source of the graph (the one with no edges point
 USAGE:
 
 ./tideman Alice Bob Charlie
+
 Number of voters: 5
+
 Rank 1: Alice
+
 Rank 2: Charlie
+
 Rank 3: Bob
+
 
 Rank 1: Alice
 Rank 2: Charlie
