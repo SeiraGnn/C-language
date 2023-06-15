@@ -1,3 +1,8 @@
+TITLE: Readability
+
+USAGE: Text: Harry Potter was a highly unusual boy in many ways. For one thing, he hated the summer holidays more than any other time of year. For another, he really wanted to do his homework, but was forced to do it in secret, in the dead of the night. And he also happened to be a wizard.
+Grade 5
+  
 This program estimates the grade level required to comprehend a given text. 
 Your first intuition on how to assess a text's level would be to employ a human expert to read it and pass judgement; 
 nevertheless, how could one go about achieving this programmatically?
