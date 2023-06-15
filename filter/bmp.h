@@ -1,4 +1,4 @@
-/ BMP-related data types based on Microsoft's own
+// BMP-related data types based on Microsoft's own
 
 #include <stdint.h>
 
