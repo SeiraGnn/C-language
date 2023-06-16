@@ -50,15 +50,6 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
-    /*for (int i = 0; i < 3; i++)
-    {
-        for (int j = width - 2; j < width; j++)
-        {
-            printf("image[%i][%i] is %i, %i, %i\n", i, j, image[i][j].rgbtBlue,image[i][j].rgbtGreen, image[i][j].rgbtRed);
-        }
-    }*/
-
-
     // Array to store the original image, so as to not affect averages by overriding values
     RGBTRIPLE swap[height][width];
 
